@@ -321,7 +321,7 @@ border: 1px solid blue;
 }
 
 .col span a:hover{
-    color: blue;
+    color: black ;
     background-color: #fff;
     padding: 4px 4px ;
     border-radius: 50%;
