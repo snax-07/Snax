@@ -339,7 +339,7 @@ border: 1px solid blue;
     color: #f15245 ;
 }
 
-.col span :nth-child(4):hover{
+.col span a i:nth-child(4):hover{
     background-color: #fff;
     color:#25D366;
 }
