@@ -434,7 +434,7 @@ border: 1px solid blue;
   
     .wrap,
     .fea,
-    .plan,
+    
     .foot {
         grid-template-columns: 1fr;
         gap: 1rem;
