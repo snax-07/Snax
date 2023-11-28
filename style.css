@@ -299,8 +299,9 @@ border: 1px solid blue;
     padding-left: 90px;
 }
 
-.col span a{
+.col span a, span{
     color: #fff;
+    text-decoration:none;
     transition: all 0.3s ease;
 }
 
