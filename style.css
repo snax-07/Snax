@@ -299,7 +299,7 @@ border: 1px solid blue;
     padding-left: 90px;
 }
 
-.col span {
+.col span a{
     color: #fff;
     transition: all 0.3s ease;
 }
@@ -309,7 +309,7 @@ border: 1px solid blue;
 
 }
 
-.col  span:nth-child(2), span:nth-child(3), span:nth-child(4)
+.col  span a:nth-child(2), span:nth-child(3), span:nth-child(4)
 {
     color: #fff;
     margin-left: 13px;
@@ -319,26 +319,26 @@ border: 1px solid blue;
     margin-top: -20px;
 }
 
-.col span:hover{
+.col span a:hover{
     color: blue;
     background-color: #fff;
     padding: 4px 4px ;
     border-radius: 50%;
 }
 
-.col span:nth-child(2):hover{
+.col span a:nth-child(2):hover{
     color: black;
     background-color: #fff;
     padding: 4px 4px ;
     border-radius: 50%;
 }
 
-.col span:nth-child(3):hover{
+.col span a:nth-child(3):hover{
     background-color: #fff;
     color: #f15245 ;
 }
 
-.col span:nth-child(4):hover{
+.col span a:nth-child(4):hover{
     background-color: #fff;
     color:#25D366;
 }
