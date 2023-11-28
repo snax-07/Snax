@@ -504,7 +504,7 @@ flex-direction: column-reverse;
 }
 
 .plan:hover{
-      transform:scale(1.01);
+      
 border:2px solid #fff;
 background-color: #323232;
 
