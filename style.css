@@ -500,7 +500,7 @@ flex-direction: column-reverse;
     height: 300px ;
     width: 250px;
     border-radius: 20px;
-    transition: transform 0.5s ease;
+    transition: plan 0.5s ease;
 }
 
 .plan:hover{
