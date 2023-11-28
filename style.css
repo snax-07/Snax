@@ -500,14 +500,13 @@ flex-direction: column-reverse;
     height: 300px ;
     width: 250px;
     border-radius: 20px;
-    transition: plan 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 .plan:hover{
-    border:2px solid #fff;
-    display: flex;
-    flex-direction: column;
-    background-color: #323232;
+      transform:scale(1.01);
+border:2px solid #fff;
+background-color: #323232;
 
 }
 
