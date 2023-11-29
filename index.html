@@ -31,7 +31,7 @@
             <p>Build your website like a pro with me.</p>
             <h1>I'm <span>SNAX</span>, The Web Devloper</h1>
             <p>You can also learn to build webpages as you want like me. You want tutorial , here you are welcome free tutorials are availabel on my page just follow it. Explore my projects just click next button. </p>
-            <button class="btn2" >Explore more</button>
+            <button  onclick="project()"class="btn2" >Explore more</button>
 
         </div>
         <div class="man">
@@ -75,7 +75,7 @@
         <p>
             Hey, I'm Snax if you have any type of query in web content of front end ,Here I'm. We can fix your front end doubt.
         </p>
-        <button class="btn3" >Explore</button>
+        <button onclick="sendMail()" class="btn3" >Explore</button>
     </div>
   </div>
 
@@ -152,5 +152,24 @@
     <p><i class="ri-copyright-line"></i> 2023 , All Rights Reserved.Contact for any query.</p>
 </div>
     <script src="index.js"></script>
+
+<script>
+  function sendMail() {
+    var link = "mailto: shrivishwanathayrved708@gmail.com"
+             + "?cc=swapnilnade07@gmail.com"
+             + "&subject=" + encodeURIComponent("Want to collaborate.")
+             + "&body=" 
+    
+    
+    window.location.href = link;
+}
+
+<script type="text/javascript">
+    function project() {
+      window.location.href = "https://www.youtube.com/@snax-07"
+    }
+</script>
+
+
 </body>
 </html>
