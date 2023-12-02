@@ -194,7 +194,7 @@ nav{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr ));
     gap:2rem;
-    text-align:center;
+    
     padding-top: 50px;
     padding-left: 90px;
   
@@ -493,6 +493,9 @@ flex-direction: column-reverse;
     .col span:hover{
         color:blue:
         
+    }
+    .container{
+        text-align:center;
     }
 
 .plan{
