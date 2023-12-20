@@ -1,0 +1,80 @@
+@font-face{
+  font-family: 'font';
+  src: url("Jaqueline.ttf")
+}
+
+@font-face{
+  font-family: 'fo';
+  src: url("icomoon.ttf");
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #1f1f1f;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+}
+
+.img img{
+  width: 500px;
+}
+.main-cont{
+  background:#fff;
+  width: 500px;
+  max-width: 1800PX;
+} 
+
+.des{
+  background: #fff;
+  text-align: center;
+  margin-top:35px; 
+}
+
+.des .h1{
+  font-family: 'font' , sans-serif;
+  color: royalblue;
+  margin-bottom: 10px;
+  margin-top: 80px;
+}
+
+.des h4{
+  font-family: 'fo' , sans-serif;
+  color: #121212;
+  font-weight: 400;
+}
+
+
+h1{
+  margin-top: -80px;
+  color: #fff;
+  margin-bottom: 60px;
+}
+
+.btn{
+  padding: 12px ;
+  width: 150px;
+  background: royalblue;
+  color: #fff;
+  transition: transform 0.4s ease;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  margin: 14px;
+  border-radius: 10px;
+}
+
+.btn::active{
+  transform: scale(0.9);
+}
+
+.btn::hover{
+  color: #000C91;
+}
