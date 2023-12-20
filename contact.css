@@ -1,0 +1,130 @@
+@font-face{
+  font-family: 'font';
+  src: url("icomoon.ttf");
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #121212;
+}
+
+div {
+  background-color: #1f1f1f;
+  display: flex;
+  width: 500px;
+  max-width: 1200px;
+  flex-direction: column-reverse;
+  margin: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.img img {
+  width:389px;
+}
+
+
+.form-cont form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form-cont h2{
+  font-family: 'font', sans-serif;
+  color: #fff;
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+
+form p{
+font-family: 'font' , sans-serif;
+  color:#fff;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left:-150px; 
+}
+
+form .p1{
+  margin-top: 18px;
+  font-family: 'font' , sans-serif;
+  color:#fff;
+  font-weight: bold;
+  margin-left: -190px;
+}
+
+form .p2{
+  margin-left:-160px;
+ margin-top: 18px; 
+}
+
+
+form input{
+  color: #fff;
+  backdrop-filter: blur(5px);
+  background: transparent;
+  outline: none;
+  margin: 5px;
+  font-size: 1rem;
+  padding: 5px;
+  border-bottom: 2px solid #fff;
+  border-right:none; 
+}
+
+form button {
+  margin-top: 30px;
+  width: 170px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  color:blue ;
+  transition: transform 0.4s ease;
+  font-size: 1rem;
+  padding: 10px 20px;
+}
+
+form button::hover{
+  background: royalblue;
+  color: #fff;
+}
+
+form button::active{
+  transform: scale(0.9);
+}
+
+
+.img {
+  background-image: url("man.gif");
+  bottom: 0;
+  background-repeat: no-repeat;
+  margin-bottom:0px;
+  background-size: cover;
+  height: 400px;
+
+}
+
+.img .img-cont{
+  background: transparent;
+}
+
+.img .img-cont h4 {
+  color: royalblue;
+  margin: 10px;
+  font-size: 1.2rem;
+  font-family: 'font' , sans-serif;
+}
+
+.img .img-cont p{
+  color: #1f1f1f;
+  font-family: 'font' , sans-serif;
+  font-weight: 700;
+}
